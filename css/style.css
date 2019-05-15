@@ -1,0 +1,40 @@
+header {
+    border-top:2px green;
+}
+header a{
+	color:green;
+}
+header a:hover{
+	color:green;
+	text-decoration:none;
+}
+header .logo .hmeta {
+    color:green;
+}
+header .color {
+    color:green;
+}
+#loading{
+	text-align:center;	
+}
+.bg-green{
+	background-color:green;
+}
+th,td{
+	text-align:center;	
+}
+footer a{
+	color:black;
+}
+footer a:hover{
+	color:white;
+}
+
+@media (max-width:767px){
+.hidden-phone {
+	display:none !important;
+}	
+header .logo{
+	text-align:center;	
+}
+}
